@@ -11,3 +11,7 @@
 ### TP 00 - HelloWorld en C
 
 ### Problema: Adquirir y preparar los recursos necesarios para resolver los trabajos del curso.
+
+##
+
+### Compilador utilizado: GCC

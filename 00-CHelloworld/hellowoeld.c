@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-main()
+int main(int argc, char const *argv[])
 {
-    printf("Hola, mundo");
+    FILE *output;
+
+    printf("Hello World");
+
+    output = fopen("output.txt", "w");
+    fprintf(output, "Hello World");
+    fclose(output);
+    return 0;
 }
